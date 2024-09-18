@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ironmarkdesign/static/css/main.f855e6bc.css",
+    "main.js": "/ironmarkdesign/static/js/main.db00a7bf.js",
+    "static/js/453.2115c79c.chunk.js": "/ironmarkdesign/static/js/453.2115c79c.chunk.js",
+    "static/media/logo.svg": "/ironmarkdesign/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ironmarkdesign/index.html",
+    "main.f855e6bc.css.map": "/ironmarkdesign/static/css/main.f855e6bc.css.map",
+    "main.db00a7bf.js.map": "/ironmarkdesign/static/js/main.db00a7bf.js.map",
+    "453.2115c79c.chunk.js.map": "/ironmarkdesign/static/js/453.2115c79c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.db00a7bf.js"
+  ]
+}
