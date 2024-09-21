@@ -1,0 +1,134 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+
+.logoTitle::after {
+  content: "iRONMARK.";
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  color: var(--black);
+}
+
+.logoTitleDesign::after {
+  content: "Design";
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  color: var(--black);
+}
+
+.header__logo {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header__menuLinks {
+  float: left;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#header a {
+  display: block;
+  padding: 8px;
+  transition: all 1s;
+}
+
+#header a:hover {
+  color: var(--lightgreen);
+}
+
+#header ul > li > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  outline: none;
+  letter-spacing: 0.25em;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+.header__menuItems-trigger {
+  display: none;
+}
+
+#header > ul > li {
+  list-style-type: none;
+}
+
+/* RESPONSIVITY */
+
+@media (width = 2560px) {
+}
+
+@media (width <= 1440px) {
+}
+
+@media (width <= 1024px) {
+}
+
+@media (width <= 1024px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  .header__logo {
+    margin-bottom: 10px;
+  }
+}
+
+@media (width <= 426px) {
+  .header__logo {
+    margin: 10px;
+  }
+  .header__menuItems {
+    display: none;
+    padding-left: 20px;
+  }
+
+  .header__menuItems.is-open {
+    display: block;
+  }
+
+  .header__menuItems-trigger {
+    display: block;
+  }
+
+  #header a {
+    display: block;
+    width: 100%;
+  }
+
+  .logo {
+    transform: scale(0.6);
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .closeIcon.is-open {
+    display: block;
+  }
+
+  .hamburgerIcon.is-open {
+    display: none;
+  }
+}

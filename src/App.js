@@ -4,18 +4,18 @@ import { Route, Routes } from "react-router-dom";
 //import {BrowserRouter as Router} from 'react-router-dom';
 import { HashRouter as Router } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import OrderSample from "./pages/OrderSample";
+import Order from "./pages/Order";
 import Contact from "./pages/Contact";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
       <Router>
         <NavBar />
-        {/*
-        <MobileNavbar /> */}
         <Routes>
-          <Route path="/orderSample" element={<OrderSample />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/order" element={<Order />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
